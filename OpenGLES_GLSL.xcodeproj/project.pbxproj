@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0975C10522C1CA3E00B8EF74 /* FilterBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0975C10122C1CA3E00B8EF74 /* FilterBarCell.m */; };
-		0975C10622C1CA3E00B8EF74 /* FilterBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0975C10222C1CA3E00B8EF74 /* FilterBar.m */; };
+		09702C4822C499BB00FAFFF2 /* FilterBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702C4422C499BB00FAFFF2 /* FilterBarCell.m */; };
+		09702C4922C499BB00FAFFF2 /* FilterBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702C4522C499BB00FAFFF2 /* FilterBar.m */; };
 		0975C10922C1CAA800B8EF74 /* Normal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0975C10822C1CAA800B8EF74 /* Normal.vsh */; };
 		0975C10B22C1CAB600B8EF74 /* Normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0975C10A22C1CAB600B8EF74 /* Normal.fsh */; };
 		0975C10E22C1CDC800B8EF74 /* SplitScreen_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0975C10D22C1CDC800B8EF74 /* SplitScreen_VC.m */; };
-		0975C11222C2111D00B8EF74 /* kunkun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0975C11122C2111D00B8EF74 /* kunkun.jpg */; };
 		0975C11422C2161F00B8EF74 /* SplitScreen_2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0975C11322C2161F00B8EF74 /* SplitScreen_2.vsh */; };
 		0975C11622C2163A00B8EF74 /* SplitScreen_2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0975C11522C2163A00B8EF74 /* SplitScreen_2.fsh */; };
 		0975C11F22C21ADD00B8EF74 /* SplitScreen_4.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0975C11722C21ADC00B8EF74 /* SplitScreen_4.vsh */; };
@@ -55,15 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0975C10122C1CA3E00B8EF74 /* FilterBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBarCell.m; sourceTree = "<group>"; };
-		0975C10222C1CA3E00B8EF74 /* FilterBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBar.m; sourceTree = "<group>"; };
-		0975C10322C1CA3E00B8EF74 /* FilterBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBarCell.h; sourceTree = "<group>"; };
-		0975C10422C1CA3E00B8EF74 /* FilterBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBar.h; sourceTree = "<group>"; };
+		09702C4422C499BB00FAFFF2 /* FilterBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBarCell.m; sourceTree = "<group>"; };
+		09702C4522C499BB00FAFFF2 /* FilterBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBar.m; sourceTree = "<group>"; };
+		09702C4622C499BB00FAFFF2 /* FilterBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBarCell.h; sourceTree = "<group>"; };
+		09702C4722C499BB00FAFFF2 /* FilterBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBar.h; sourceTree = "<group>"; };
 		0975C10822C1CAA800B8EF74 /* Normal.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.vsh; sourceTree = "<group>"; };
 		0975C10A22C1CAB600B8EF74 /* Normal.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
 		0975C10C22C1CDC800B8EF74 /* SplitScreen_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitScreen_VC.h; sourceTree = "<group>"; };
 		0975C10D22C1CDC800B8EF74 /* SplitScreen_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitScreen_VC.m; sourceTree = "<group>"; };
-		0975C11122C2111D00B8EF74 /* kunkun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kunkun.jpg; sourceTree = "<group>"; };
 		0975C11322C2161F00B8EF74 /* SplitScreen_2.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SplitScreen_2.vsh; sourceTree = "<group>"; };
 		0975C11522C2163A00B8EF74 /* SplitScreen_2.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SplitScreen_2.fsh; sourceTree = "<group>"; };
 		0975C11722C21ADC00B8EF74 /* SplitScreen_4.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_4.vsh; sourceTree = "<group>"; };
@@ -123,27 +121,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09702C4222C499BB00FAFFF2 /* Example_Filter */ = {
+			isa = PBXGroup;
+			children = (
+				09702C4A22C49A8400FAFFF2 /* Filters */,
+			);
+			path = Example_Filter;
+			sourceTree = "<group>";
+		};
+		09702C4322C499BB00FAFFF2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				09702C4422C499BB00FAFFF2 /* FilterBarCell.m */,
+				09702C4522C499BB00FAFFF2 /* FilterBar.m */,
+				09702C4622C499BB00FAFFF2 /* FilterBarCell.h */,
+				09702C4722C499BB00FAFFF2 /* FilterBar.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		09702C4A22C49A8400FAFFF2 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
 		0975C0FF22C1C9C700B8EF74 /* Example_SplitScreen */ = {
 			isa = PBXGroup;
 			children = (
 				0975C10722C1CA6600B8EF74 /* Fileter */,
-				0975C10022C1CA3E00B8EF74 /* Tool */,
 				0975C10C22C1CDC800B8EF74 /* SplitScreen_VC.h */,
 				0975C10D22C1CDC800B8EF74 /* SplitScreen_VC.m */,
-				0975C11122C2111D00B8EF74 /* kunkun.jpg */,
 			);
 			path = Example_SplitScreen;
-			sourceTree = "<group>";
-		};
-		0975C10022C1CA3E00B8EF74 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				0975C10422C1CA3E00B8EF74 /* FilterBar.h */,
-				0975C10222C1CA3E00B8EF74 /* FilterBar.m */,
-				0975C10322C1CA3E00B8EF74 /* FilterBarCell.h */,
-				0975C10122C1CA3E00B8EF74 /* FilterBarCell.m */,
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		0975C10722C1CA6600B8EF74 /* Fileter */ = {
@@ -165,7 +176,7 @@
 			path = Fileter;
 			sourceTree = "<group>";
 		};
-		099FA5C622BB33900063BCCA /* Example_1 */ = {
+		099FA5C622BB33900063BCCA /* Example_LoadImage */ = {
 			isa = PBXGroup;
 			children = (
 				099FA5C722BB33900063BCCA /* shaderf1.fsh */,
@@ -175,7 +186,7 @@
 				099FA5CE22BB33CF0063BCCA /* Example1_VC.h */,
 				099FA5CF22BB33CF0063BCCA /* Example1_VC.m */,
 			);
-			path = Example_1;
+			path = Example_LoadImage;
 			sourceTree = "<group>";
 		};
 		09F0931A22B2324400E6E9EF = {
@@ -201,8 +212,10 @@
 		09F0932522B2324400E6E9EF /* OpenGLES_GLSL */ = {
 			isa = PBXGroup;
 			children = (
+				09702C4222C499BB00FAFFF2 /* Example_Filter */,
 				0975C0FF22C1C9C700B8EF74 /* Example_SplitScreen */,
-				099FA5C622BB33900063BCCA /* Example_1 */,
+				099FA5C622BB33900063BCCA /* Example_LoadImage */,
+				09702C4322C499BB00FAFFF2 /* Tool */,
 				09F0932622B2324400E6E9EF /* AppDelegate.h */,
 				09F0932722B2324400E6E9EF /* AppDelegate.m */,
 				09F0932922B2324400E6E9EF /* ViewController.h */,
@@ -345,7 +358,6 @@
 				09F0932E22B2324400E6E9EF /* Main.storyboard in Resources */,
 				0975C12122C21ADD00B8EF74 /* SplitScreen_9.vsh in Resources */,
 				0975C11F22C21ADD00B8EF74 /* SplitScreen_4.vsh in Resources */,
-				0975C11222C2111D00B8EF74 /* kunkun.jpg in Resources */,
 				0975C10B22C1CAB600B8EF74 /* Normal.fsh in Resources */,
 				0975C12622C21ADD00B8EF74 /* SplitScreen_9.fsh in Resources */,
 				0975C11422C2161F00B8EF74 /* SplitScreen_2.vsh in Resources */,
@@ -380,12 +392,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F0932B22B2324400E6E9EF /* ViewController.m in Sources */,
+				09702C4922C499BB00FAFFF2 /* FilterBar.m in Sources */,
 				099FA5CC22BB33900063BCCA /* SJView1.m in Sources */,
-				0975C10622C1CA3E00B8EF74 /* FilterBar.m in Sources */,
 				09F0933622B2324600E6E9EF /* main.m in Sources */,
 				09F0932822B2324400E6E9EF /* AppDelegate.m in Sources */,
 				099FA5D022BB33CF0063BCCA /* Example1_VC.m in Sources */,
-				0975C10522C1CA3E00B8EF74 /* FilterBarCell.m in Sources */,
+				09702C4822C499BB00FAFFF2 /* FilterBarCell.m in Sources */,
 				0975C10E22C1CDC800B8EF74 /* SplitScreen_VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

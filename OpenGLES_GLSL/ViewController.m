@@ -23,7 +23,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.dataArray addObject:@"OpenGL ES GLSL加载图片"];
-    [self.dataArray addObject:@"OpenGL ES 滤镜分屏处理"];
+    [self.dataArray addObject:@"OpenGL ES 分屏滤镜处理"];
+    [self.dataArray addObject:@"OpenGL ES 灰度/马赛克滤镜处理"];
 }
 
 #pragma mark - UITableViewDelegate & DataSource
