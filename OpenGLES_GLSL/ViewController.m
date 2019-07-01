@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "Example1_VC.h"
 #import "SplitScreen_VC.h"
+#import "MosaicFilter_VC.h"
+#import "ShapeFilter_VC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -24,7 +26,8 @@
     
     [self.dataArray addObject:@"OpenGL ES GLSL加载图片"];
     [self.dataArray addObject:@"OpenGL ES 分屏滤镜处理"];
-    [self.dataArray addObject:@"OpenGL ES 灰度/马赛克滤镜处理"];
+    [self.dataArray addObject:@"灰度/浮雕/马赛克滤镜处理"];
+    [self.dataArray addObject:@"放大/滤镜处理"];
 }
 
 #pragma mark - UITableViewDelegate & DataSource
@@ -62,7 +65,21 @@
             SplitScreen_VC *vc2 = [[SplitScreen_VC alloc] init];
             [self.navigationController pushViewController:vc2 animated:YES];
         }
+            break;
+           
+        case 2:
+        {
+            MosaicFilter_VC *vc2 = [[MosaicFilter_VC alloc] init];
+            [self.navigationController pushViewController:vc2 animated:YES];
+        }
+            break;
             
+        case 3:
+        {
+            ShapeFilter_VC *vc2 = [[ShapeFilter_VC alloc] init];
+            [self.navigationController pushViewController:vc2 animated:YES];
+        }
+            break;
             
         default:
             break;

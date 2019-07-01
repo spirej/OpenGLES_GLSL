@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		09702C4822C499BB00FAFFF2 /* FilterBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702C4422C499BB00FAFFF2 /* FilterBarCell.m */; };
 		09702C4922C499BB00FAFFF2 /* FilterBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702C4522C499BB00FAFFF2 /* FilterBar.m */; };
+		09702C4C22C49ADE00FAFFF2 /* Normal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C4B22C49ADE00FAFFF2 /* Normal.vsh */; };
+		09702C4E22C49AEB00FAFFF2 /* Normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C4D22C49AEB00FAFFF2 /* Normal.fsh */; };
+		09702C5022C49B0100FAFFF2 /* Gray.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C4F22C49B0100FAFFF2 /* Gray.vsh */; };
+		09702C5222C49B0D00FAFFF2 /* Gray.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C5122C49B0D00FAFFF2 /* Gray.fsh */; };
+		09702C5522C49D6600FAFFF2 /* MosaicFilter_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09702C5422C49D6600FAFFF2 /* MosaicFilter_VC.m */; };
+		09702C5722C4AD9A00FAFFF2 /* Rectangle.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C5622C4AD9A00FAFFF2 /* Rectangle.vsh */; };
+		09702C5922C4ADAD00FAFFF2 /* Rectangle.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C5822C4ADAD00FAFFF2 /* Rectangle.fsh */; };
+		09702C5B22C4B0A900FAFFF2 /* Relief.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C5A22C4B0A900FAFFF2 /* Relief.vsh */; };
+		09702C5D22C4B0B800FAFFF2 /* Relief.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C5C22C4B0B800FAFFF2 /* Relief.fsh */; };
+		09702C5F22C4BDF800FAFFF2 /* Vortex.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C5E22C4BDF800FAFFF2 /* Vortex.vsh */; };
+		09702C6122C4BE0500FAFFF2 /* Vortex.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09702C6022C4BE0500FAFFF2 /* Vortex.fsh */; };
 		0975C10922C1CAA800B8EF74 /* Normal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0975C10822C1CAA800B8EF74 /* Normal.vsh */; };
 		0975C10B22C1CAB600B8EF74 /* Normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0975C10A22C1CAB600B8EF74 /* Normal.fsh */; };
 		0975C10E22C1CDC800B8EF74 /* SplitScreen_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0975C10D22C1CDC800B8EF74 /* SplitScreen_VC.m */; };
@@ -27,6 +38,17 @@
 		099FA5CD22BB33900063BCCA /* shaderv1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 099FA5C922BB33900063BCCA /* shaderv1.vsh */; };
 		099FA5D022BB33CF0063BCCA /* Example1_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 099FA5CF22BB33CF0063BCCA /* Example1_VC.m */; };
 		099FA5D222BB74590063BCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099FA5D122BB74590063BCCA /* Assets.xcassets */; };
+		09B19F3722C9A31C00B5DA42 /* Scale.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F3622C9A31C00B5DA42 /* Scale.vsh */; };
+		09B19F3922C9A32800B5DA42 /* Scale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F3822C9A32800B5DA42 /* Scale.fsh */; };
+		09B19F3C22C9A73700B5DA42 /* ShapeFilter_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B19F3B22C9A73700B5DA42 /* ShapeFilter_VC.m */; };
+		09B19F3E22C9AC9400B5DA42 /* SoulOut.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F3D22C9AC9400B5DA42 /* SoulOut.vsh */; };
+		09B19F4022C9AC9E00B5DA42 /* SoulOut.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F3F22C9AC9E00B5DA42 /* SoulOut.fsh */; };
+		09B19F4222C9B86900B5DA42 /* Shake.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F4122C9B86900B5DA42 /* Shake.vsh */; };
+		09B19F4422C9B87200B5DA42 /* Shake.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F4322C9B87200B5DA42 /* Shake.fsh */; };
+		09B19F4622C9DB1A00B5DA42 /* FlashLight.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F4522C9DB1A00B5DA42 /* FlashLight.vsh */; };
+		09B19F4822C9DB2500B5DA42 /* FlashLight.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F4722C9DB2500B5DA42 /* FlashLight.fsh */; };
+		09B19F4A22C9E02D00B5DA42 /* Glitch.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F4922C9E02D00B5DA42 /* Glitch.vsh */; };
+		09B19F4C22C9E03800B5DA42 /* Glitch.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09B19F4B22C9E03800B5DA42 /* Glitch.fsh */; };
 		09F0932822B2324400E6E9EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0932722B2324400E6E9EF /* AppDelegate.m */; };
 		09F0932B22B2324400E6E9EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0932A22B2324400E6E9EF /* ViewController.m */; };
 		09F0932E22B2324400E6E9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F0932C22B2324400E6E9EF /* Main.storyboard */; };
@@ -34,6 +56,12 @@
 		09F0933622B2324600E6E9EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0933522B2324600E6E9EF /* main.m */; };
 		09F0934022B2324600E6E9EF /* OpenGLES_GLSLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0933F22B2324600E6E9EF /* OpenGLES_GLSLTests.m */; };
 		09F0934B22B2324600E6E9EF /* OpenGLES_GLSLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F0934A22B2324600E6E9EF /* OpenGLES_GLSLUITests.m */; };
+		09F4FE6E22C5B17A00602F86 /* Sexangle.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09F4FE6D22C5B17A00602F86 /* Sexangle.vsh */; };
+		09F4FE7022C5B18400602F86 /* Sexangle.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09F4FE6F22C5B18400602F86 /* Sexangle.fsh */; };
+		09F4FE7222C5BDD500602F86 /* Triangle.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09F4FE7122C5BDD500602F86 /* Triangle.vsh */; };
+		09F4FE7422C5BDE200602F86 /* Triangle.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09F4FE7322C5BDE200602F86 /* Triangle.fsh */; };
+		09F4FE7622C5BF1800602F86 /* Circle.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 09F4FE7522C5BF1800602F86 /* Circle.vsh */; };
+		09F4FE7822C5BF2100602F86 /* Circle.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 09F4FE7722C5BF2100602F86 /* Circle.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +86,18 @@
 		09702C4522C499BB00FAFFF2 /* FilterBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterBar.m; sourceTree = "<group>"; };
 		09702C4622C499BB00FAFFF2 /* FilterBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBarCell.h; sourceTree = "<group>"; };
 		09702C4722C499BB00FAFFF2 /* FilterBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterBar.h; sourceTree = "<group>"; };
+		09702C4B22C49ADE00FAFFF2 /* Normal.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.vsh; sourceTree = "<group>"; };
+		09702C4D22C49AEB00FAFFF2 /* Normal.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
+		09702C4F22C49B0100FAFFF2 /* Gray.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Gray.vsh; sourceTree = "<group>"; };
+		09702C5122C49B0D00FAFFF2 /* Gray.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Gray.fsh; sourceTree = "<group>"; };
+		09702C5322C49D6600FAFFF2 /* MosaicFilter_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MosaicFilter_VC.h; sourceTree = "<group>"; };
+		09702C5422C49D6600FAFFF2 /* MosaicFilter_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosaicFilter_VC.m; sourceTree = "<group>"; };
+		09702C5622C4AD9A00FAFFF2 /* Rectangle.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Rectangle.vsh; sourceTree = "<group>"; };
+		09702C5822C4ADAD00FAFFF2 /* Rectangle.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Rectangle.fsh; sourceTree = "<group>"; };
+		09702C5A22C4B0A900FAFFF2 /* Relief.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Relief.vsh; sourceTree = "<group>"; };
+		09702C5C22C4B0B800FAFFF2 /* Relief.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Relief.fsh; sourceTree = "<group>"; };
+		09702C5E22C4BDF800FAFFF2 /* Vortex.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Vortex.vsh; sourceTree = "<group>"; };
+		09702C6022C4BE0500FAFFF2 /* Vortex.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Vortex.fsh; sourceTree = "<group>"; };
 		0975C10822C1CAA800B8EF74 /* Normal.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.vsh; sourceTree = "<group>"; };
 		0975C10A22C1CAB600B8EF74 /* Normal.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
 		0975C10C22C1CDC800B8EF74 /* SplitScreen_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitScreen_VC.h; sourceTree = "<group>"; };
@@ -79,6 +119,18 @@
 		099FA5CE22BB33CF0063BCCA /* Example1_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example1_VC.h; sourceTree = "<group>"; };
 		099FA5CF22BB33CF0063BCCA /* Example1_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example1_VC.m; sourceTree = "<group>"; };
 		099FA5D122BB74590063BCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B19F3622C9A31C00B5DA42 /* Scale.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Scale.vsh; sourceTree = "<group>"; };
+		09B19F3822C9A32800B5DA42 /* Scale.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Scale.fsh; sourceTree = "<group>"; };
+		09B19F3A22C9A73700B5DA42 /* ShapeFilter_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeFilter_VC.h; sourceTree = "<group>"; };
+		09B19F3B22C9A73700B5DA42 /* ShapeFilter_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeFilter_VC.m; sourceTree = "<group>"; };
+		09B19F3D22C9AC9400B5DA42 /* SoulOut.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.vsh; sourceTree = "<group>"; };
+		09B19F3F22C9AC9E00B5DA42 /* SoulOut.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.fsh; sourceTree = "<group>"; };
+		09B19F4122C9B86900B5DA42 /* Shake.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.vsh; sourceTree = "<group>"; };
+		09B19F4322C9B87200B5DA42 /* Shake.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.fsh; sourceTree = "<group>"; };
+		09B19F4522C9DB1A00B5DA42 /* FlashLight.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = FlashLight.vsh; sourceTree = "<group>"; };
+		09B19F4722C9DB2500B5DA42 /* FlashLight.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = FlashLight.fsh; sourceTree = "<group>"; };
+		09B19F4922C9E02D00B5DA42 /* Glitch.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Glitch.vsh; sourceTree = "<group>"; };
+		09B19F4B22C9E03800B5DA42 /* Glitch.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Glitch.fsh; sourceTree = "<group>"; };
 		09F0932322B2324400E6E9EF /* OpenGLES_GLSL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLES_GLSL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F0932622B2324400E6E9EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09F0932722B2324400E6E9EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -94,6 +146,12 @@
 		09F0934622B2324600E6E9EF /* OpenGLES_GLSLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLES_GLSLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F0934A22B2324600E6E9EF /* OpenGLES_GLSLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLES_GLSLUITests.m; sourceTree = "<group>"; };
 		09F0934C22B2324600E6E9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F4FE6D22C5B17A00602F86 /* Sexangle.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Sexangle.vsh; sourceTree = "<group>"; };
+		09F4FE6F22C5B18400602F86 /* Sexangle.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Sexangle.fsh; sourceTree = "<group>"; };
+		09F4FE7122C5BDD500602F86 /* Triangle.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Triangle.vsh; sourceTree = "<group>"; };
+		09F4FE7322C5BDE200602F86 /* Triangle.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Triangle.fsh; sourceTree = "<group>"; };
+		09F4FE7522C5BF1800602F86 /* Circle.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Circle.vsh; sourceTree = "<group>"; };
+		09F4FE7722C5BF2100602F86 /* Circle.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Circle.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +183,8 @@
 			isa = PBXGroup;
 			children = (
 				09702C4A22C49A8400FAFFF2 /* Filters */,
+				09702C5322C49D6600FAFFF2 /* MosaicFilter_VC.h */,
+				09702C5422C49D6600FAFFF2 /* MosaicFilter_VC.m */,
 			);
 			path = Example_Filter;
 			sourceTree = "<group>";
@@ -143,6 +203,22 @@
 		09702C4A22C49A8400FAFFF2 /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				09702C4B22C49ADE00FAFFF2 /* Normal.vsh */,
+				09702C4D22C49AEB00FAFFF2 /* Normal.fsh */,
+				09702C4F22C49B0100FAFFF2 /* Gray.vsh */,
+				09702C5122C49B0D00FAFFF2 /* Gray.fsh */,
+				09702C5A22C4B0A900FAFFF2 /* Relief.vsh */,
+				09702C5C22C4B0B800FAFFF2 /* Relief.fsh */,
+				09702C5E22C4BDF800FAFFF2 /* Vortex.vsh */,
+				09702C6022C4BE0500FAFFF2 /* Vortex.fsh */,
+				09702C5622C4AD9A00FAFFF2 /* Rectangle.vsh */,
+				09702C5822C4ADAD00FAFFF2 /* Rectangle.fsh */,
+				09F4FE6D22C5B17A00602F86 /* Sexangle.vsh */,
+				09F4FE6F22C5B18400602F86 /* Sexangle.fsh */,
+				09F4FE7122C5BDD500602F86 /* Triangle.vsh */,
+				09F4FE7322C5BDE200602F86 /* Triangle.fsh */,
+				09F4FE7522C5BF1800602F86 /* Circle.vsh */,
+				09F4FE7722C5BF2100602F86 /* Circle.fsh */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -189,6 +265,33 @@
 			path = Example_LoadImage;
 			sourceTree = "<group>";
 		};
+		09B19F3422C9A30700B5DA42 /* Example_Filter_2 */ = {
+			isa = PBXGroup;
+			children = (
+				09B19F3522C9A30700B5DA42 /* Filters */,
+				09B19F3A22C9A73700B5DA42 /* ShapeFilter_VC.h */,
+				09B19F3B22C9A73700B5DA42 /* ShapeFilter_VC.m */,
+			);
+			path = Example_Filter_2;
+			sourceTree = "<group>";
+		};
+		09B19F3522C9A30700B5DA42 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				09B19F3622C9A31C00B5DA42 /* Scale.vsh */,
+				09B19F3822C9A32800B5DA42 /* Scale.fsh */,
+				09B19F3D22C9AC9400B5DA42 /* SoulOut.vsh */,
+				09B19F3F22C9AC9E00B5DA42 /* SoulOut.fsh */,
+				09B19F4122C9B86900B5DA42 /* Shake.vsh */,
+				09B19F4322C9B87200B5DA42 /* Shake.fsh */,
+				09B19F4522C9DB1A00B5DA42 /* FlashLight.vsh */,
+				09B19F4722C9DB2500B5DA42 /* FlashLight.fsh */,
+				09B19F4922C9E02D00B5DA42 /* Glitch.vsh */,
+				09B19F4B22C9E03800B5DA42 /* Glitch.fsh */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
 		09F0931A22B2324400E6E9EF = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +315,7 @@
 		09F0932522B2324400E6E9EF /* OpenGLES_GLSL */ = {
 			isa = PBXGroup;
 			children = (
+				09B19F3422C9A30700B5DA42 /* Example_Filter_2 */,
 				09702C4222C499BB00FAFFF2 /* Example_Filter */,
 				0975C0FF22C1C9C700B8EF74 /* Example_SplitScreen */,
 				099FA5C622BB33900063BCCA /* Example_LoadImage */,
@@ -351,22 +455,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F0933322B2324600E6E9EF /* LaunchScreen.storyboard in Resources */,
+				09B19F4822C9DB2500B5DA42 /* FlashLight.fsh in Resources */,
 				0975C12422C21ADD00B8EF74 /* SplitScreen_6.fsh in Resources */,
+				09702C5022C49B0100FAFFF2 /* Gray.vsh in Resources */,
+				09B19F3922C9A32800B5DA42 /* Scale.fsh in Resources */,
+				09702C4C22C49ADE00FAFFF2 /* Normal.vsh in Resources */,
+				09B19F3E22C9AC9400B5DA42 /* SoulOut.vsh in Resources */,
 				0975C11622C2163A00B8EF74 /* SplitScreen_2.fsh in Resources */,
+				09F4FE7422C5BDE200602F86 /* Triangle.fsh in Resources */,
 				099FA5CB22BB33900063BCCA /* shaderf1.fsh in Resources */,
 				0975C10922C1CAA800B8EF74 /* Normal.vsh in Resources */,
+				09702C4E22C49AEB00FAFFF2 /* Normal.fsh in Resources */,
 				09F0932E22B2324400E6E9EF /* Main.storyboard in Resources */,
 				0975C12122C21ADD00B8EF74 /* SplitScreen_9.vsh in Resources */,
 				0975C11F22C21ADD00B8EF74 /* SplitScreen_4.vsh in Resources */,
+				09B19F4422C9B87200B5DA42 /* Shake.fsh in Resources */,
+				09B19F4222C9B86900B5DA42 /* Shake.vsh in Resources */,
+				09F4FE7222C5BDD500602F86 /* Triangle.vsh in Resources */,
 				0975C10B22C1CAB600B8EF74 /* Normal.fsh in Resources */,
 				0975C12622C21ADD00B8EF74 /* SplitScreen_9.fsh in Resources */,
+				09702C5B22C4B0A900FAFFF2 /* Relief.vsh in Resources */,
+				09F4FE6E22C5B17A00602F86 /* Sexangle.vsh in Resources */,
+				09B19F4A22C9E02D00B5DA42 /* Glitch.vsh in Resources */,
 				0975C11422C2161F00B8EF74 /* SplitScreen_2.vsh in Resources */,
+				09F4FE7822C5BF2100602F86 /* Circle.fsh in Resources */,
 				0975C12322C21ADD00B8EF74 /* SplitScreen_6.vsh in Resources */,
+				09B19F4022C9AC9E00B5DA42 /* SoulOut.fsh in Resources */,
 				099FA5CD22BB33900063BCCA /* shaderv1.vsh in Resources */,
+				09B19F4C22C9E03800B5DA42 /* Glitch.fsh in Resources */,
+				09702C5F22C4BDF800FAFFF2 /* Vortex.vsh in Resources */,
+				09B19F4622C9DB1A00B5DA42 /* FlashLight.vsh in Resources */,
+				09B19F3722C9A31C00B5DA42 /* Scale.vsh in Resources */,
+				09702C5922C4ADAD00FAFFF2 /* Rectangle.fsh in Resources */,
 				0975C12022C21ADD00B8EF74 /* SplitScreen_3.vsh in Resources */,
+				09F4FE7022C5B18400602F86 /* Sexangle.fsh in Resources */,
+				09702C5222C49B0D00FAFFF2 /* Gray.fsh in Resources */,
 				0975C12522C21ADD00B8EF74 /* SplitScreen_3.fsh in Resources */,
+				09702C6122C4BE0500FAFFF2 /* Vortex.fsh in Resources */,
+				09F4FE7622C5BF1800602F86 /* Circle.vsh in Resources */,
 				099FA5D222BB74590063BCCA /* Assets.xcassets in Resources */,
 				0975C12222C21ADD00B8EF74 /* SplitScreen_4.fsh in Resources */,
+				09702C5D22C4B0B800FAFFF2 /* Relief.fsh in Resources */,
+				09702C5722C4AD9A00FAFFF2 /* Rectangle.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,8 +521,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B19F3C22C9A73700B5DA42 /* ShapeFilter_VC.m in Sources */,
 				09F0932B22B2324400E6E9EF /* ViewController.m in Sources */,
 				09702C4922C499BB00FAFFF2 /* FilterBar.m in Sources */,
+				09702C5522C49D6600FAFFF2 /* MosaicFilter_VC.m in Sources */,
 				099FA5CC22BB33900063BCCA /* SJView1.m in Sources */,
 				09F0933622B2324600E6E9EF /* main.m in Sources */,
 				09F0932822B2324400E6E9EF /* AppDelegate.m in Sources */,

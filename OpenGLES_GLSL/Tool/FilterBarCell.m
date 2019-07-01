@@ -36,6 +36,7 @@
     self.label.font = [UIFont boldSystemFontOfSize:15];
     self.label.layer.masksToBounds = YES;
     self.label.layer.cornerRadius = 15;
+    self.label.numberOfLines = 0;
     [self addSubview:self.label];
 }
 
